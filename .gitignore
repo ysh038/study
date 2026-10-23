@@ -1,0 +1,18 @@
+# 환경
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / 에디터
+.DS_Store
+.idea/
+.vscode/
+
+# 큰 산출물은 커밋하지 않음 (그래프·json·csv 같은 작은 결과는 커밋)
+**/results/**/*.pt
+**/results/**/*.safetensors
+**/results/**/*.bin
+**/results/**/*.nsys-rep
+**/results/**/*.trace.json
